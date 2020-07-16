@@ -1,0 +1,46 @@
+:root{
+
+    /* color codes in hex */
+    --bluish-hex:  #2B04E8;
+    --tint-bluish-hex: #4A40FF; 
+    --purple-hex: #5009FF;     
+    --tint-purple-hex: #6A12E8;
+    --light-purple-hex: #8B09FF;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+.mr-1 {
+    margin: 1rem 0;
+}
+.px-4 {
+    padding: 1rem;
+}
+.pd-2 {
+    padding: 2rem;
+}
+.font-gradient {
+    background: linear-gradient(45deg, #4A40FF, #8B09FF, #363636);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.background-gradient {
+    background: linear-gradient(45deg, #4A40FF, #8B09FF, #363636);
+}
+.btnX {
+    margin: auto;
+    display: block;
+}
+.mt-2 {
+    margin-top: 2rem;
+}
+.mb-3 {
+    margin-bottom: 3rem
+}
+.pointer {
+    cursor: pointer;
+}
+.section-5-2-half {
+    padding: 5rem 2.5rem;
+}
