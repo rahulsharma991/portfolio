@@ -2,7 +2,7 @@
     <div>
         <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="#">
+    <a class="navbar-item" href="/">
       <img src="../../assets/images/rLogo.png">
     </a>
 
@@ -15,7 +15,7 @@
 
   <div class="navbar-menu expand">
     <div class="navbar-end navbar-mobile">
-      <a class="navbar-item navbar-mobile-item">
+      <a href="#home" class="navbar-item navbar-mobile-item ">
        Home
       </a>
 
@@ -23,16 +23,16 @@
         About
       </a>
 
-      <a class="navbar-item navbar-mobile-item">
+      <a href="#services" class="navbar-item navbar-mobile-item">
         
          Services 
         </a>
 
-      <a class="navbar-item navbar-mobile-item">
+      <a href="#projects" class="navbar-item navbar-mobile-item">
           Projects
       </a>
 
-       <a class="navbar-item navbar-mobile-item">
+       <a href="#contact" class="navbar-item navbar-mobile-item">
           Contact
       </a>
 
@@ -50,19 +50,29 @@ export default {
         var expand = document.getElementsByClassName('expand')[0];
         if(expand.style.display === 'none'){
            expand.style.display = 'block';
+          
         } else {
           expand.style.display = 'none'
         }
         
-      }
+      },
     }
 }
 </script>
 
 <style scoped>
+.is-active {
+  color:var(--light-purple-hex) !important;
+}
+.active {
+  color:red;
+}
 .navbar-item img {
     max-height: 4.75rem !important;
     height: 3rem;
+}
+.navbar-mobile-item:hover {
+     color: var(--light-purple-hex);
 }
 .line-one {
   width: 23px;
@@ -98,16 +108,22 @@ export default {
     width: 50%;
     position: fixed;
     height: 100vh;
-    top: 0;
     right: 0;
+    border-top-left-radius: 1rem;
+    background: linear-gradient(45deg, var( --tint-bluish-hex), var(--light-purple-hex), #363636);
 }
 .navbar-mobile {
     top: 2rem;
     position: relative;
-    text-align: center
+    text-align: center;
 }
 .navbar-mobile-item {
     padding: 1.2rem;
+    color: white;
+}
+.navbar-mobile-item:hover {
+    background: transparent;
+    color:black;
 }
 }
 </style>

@@ -1,15 +1,17 @@
 <template>
     <div>
          <!--=========================Home================================-->
-        <section>
+        <section id="home">
             <div class="landing-area">
                 <div class="container">
                     <div class="landing-area-text px-4">
                         <h1 class="title is-size-3 has-text-centered is-size-4-mobile typing-anime">Rahul Sharma</h1>
                         <h2 class="title is-spaced is-size-2 has-text-centered is-size-3-mobile mr-1 font-gradient">< Front-End Web Developer /></h2>
-                        <h3 class="subtitle has-text-centered has-text-weight-medium is-size-4 is-size-5-mobile has-text-black">HTML . CSS . JavaScript . NuxtJs</h3>
-                        <button class="button is-dark has-text-centered btnX" role="button">Get in touch</button>
-                        <button class="is-size-1 mt-2 arrow-anime btnX pointer"> <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                        <h3 class="subtitle has-text-centered has-text-weight-medium is-size-4 is-size-5-mobile ">HTML . CSS . JavaScript . NuxtJs</h3>
+                            <button class="button is-dark has-text-centered btnX background-gradient" role="button">Get in touch</button>
+                        <a href="#about"><button class="is-size-1 mt-2 arrow-anime btnX pointer"> <i class="fa fa-angle-down" aria-hidden="true"></i></button></a>
+                        
+
                     </div>
                 </div>
             </div>
@@ -26,7 +28,7 @@
 
                 <div class="columns is-centered">
                     <div class="column is-three-fifths">
-                        <h1 class="title is-spaced">Hello <img src="../../assets/images/hello.png" alt="hello to everyone" class="hello-image"/></h1>
+                        <h1 class="title is-spaced font-gradient">Hello <img src="../../assets/images/hello.png" alt="hello to everyone" class="hello-image"/></h1>
                         <h2 class="subtitle has-text-justified intro">I'm Rahul Sharma, who daily sips a <img src="../../assets/images/programming.png" style="height:1.4rem"/> cup of code, 22 years old from technical background with graduation degree <img src="../../assets/images/graduation.png" style="height:1.4rem" /> in computer science and Engineering. I'm front-end web developer and working as a freelance remotely <img src="../../assets/images/freelance.png" style="height:1.4rem" /> .</h2>
                         <h2 class="subtitle has-text-justified intro">At initial level i started creating web designs with HTML and CSS in 2018. But I not happy with that i wanted to control the whole behaviour of the body so i add JavaScript in my pocket to keep alive the body. <img src="../../assets/images/heart.png" style="height:1.4rem" /></h2>
                         <h2 class="subtitle has-text-justified intro">I always love technology and eager to learn something new so i can contribute cool stuff to open source community. In spare time i draw some paintings and reading books. <img src="../../assets/images/contribution.png" style="height:1.4rem" /></h2>
@@ -40,7 +42,7 @@
                 <div class="container">
                     <div class="columns is-centered">
                         <div class="column is-three-quarters has-text-centered">
-                            <h1 class="title is-spaced">Make things Digital</h1>
+                            <h1 class="title is-spaced font-gradient">Make things Digital</h1>
                             <h2 class="subtitle">Digitalize the things and start creating marvelous web designs</h2>
                         </div>
                     </div>
@@ -72,7 +74,7 @@
             <div class="container">
                 <div class="columns is-centered">
                     <div class="column is-three-quarters has-text-centered">
-                            <h1 class="title is-spaced">Projects</h1>
+                            <h1 class="title is-spaced font-gradient">Projects</h1>
                             <h2 class="subtitle">Project that i had done yet</h2>
                     </div>
                 </div>
@@ -85,7 +87,9 @@
                     <div class="column is-12-mobile is-half-tablet is-half-desktop pd-2">
                         <h1 class="title is-spaced">Bairro Express</h1>
                         <h2 class="subtitle ">This is completely responsive website with on-scroll animations that i had made for my client based on <strong>Portugal.</strong>This project is very simple UI and contains information about restaurant menu.</h2>
-                        <p><i class="fa fa-github" aria-hidden="true"></i></p>
+                        <div style="display:flex;align-items: center;">
+                            <a href="https://bairroexpress.pt/" target="_blank"><img src="../../assets/images/www.png" style="height:1.6rem" /></a>&nbsp; <span style="color: var(--purple-hex)">bairroexpress.pt</span>
+                        </div>
                     </div>
                 </div>
 
@@ -97,6 +101,9 @@
                         <div class="column is-12-mobile is-half-tablet is-half-desktop pd-2 ">
                             <h1 class="title is-spaced">Web Floating Dialog</h1>
                             <h2 class="subtitle ">A dialog plugin to alert your website users about any important information. Inspired from paper dialog seen on YouTube during COVID-19 outbreak. It is a open source project that i had done with Mexson Fernandes.</h2>
+                        <div style="display:flex;align-items: center;">
+                            <a href="https://github.com/RoboMx/web-dialog-alert" target="_blank"><img src="../../assets/images/github.png" style="height:1.6rem" /></a>&nbsp; <span style="color: var(--purple-hex)">View Source Code</span>
+                        </div>
                         </div>
                     </div>
 
@@ -107,6 +114,9 @@
                         <div class="column is-12-mobile is-half-tablet is-half-desktop pd-2 ">
                             <h1 class="title is-spaced">WebIDHunt</h1>
                             <h2 class="subtitle ">Client based app to get information about username availability from different important websites. This tool can be used by startups, tech enthusiast, and people who want to block particular username on important domains.</h2>
+                            <div style="display:flex;align-items: center;">
+                                <a href="https://github.com/RoboMx/WebIDHunt" target="_blank"><img src="../../assets/images/github.png" style="height:1.6rem" /></a>&nbsp; <span style="color: var(--purple-hex)">View Source Code</span>
+                            </div>
                         </div>
                     </div>
             </div>
@@ -115,11 +125,11 @@
 
           <!--=========================Get in touch================================-->
 
-          <section class="section-5-2-half">
+          <section class="section-5-2-half" id="contact">
               <div class="container">
                   <div class="columns is-centered">
                       <div class="column is-three-quarters has-text-centered">
-                          <h1 class="title is-spaced">Get In Touch</h1>
+                          <h1 class="title is-spaced font-gradient">Get In Touch</h1>
                           <h2 class="subtitle">I'll be happy if you reached out me. Even you say "Hello! || Hey!" to make and if have idea or any discussion to do i will be there to help you out. Don't Hesitate just drop a message i'll get back to ASAP!</h2>
                           <h2 class="subtitle">You can contact me on different social platform :-</h2>
                       </div>
@@ -148,11 +158,11 @@
               <footer class="footer">
                     <div class="content has-text-centered">
                         <p>
-                            <a href="">Home</a> | 
-                            <a href="">About</a> |
-                            <a href="">Services</a> |
-                            <a href="">Projects</a> |
-                            <a href="">Contact</a>
+                            <a href="#home" class="is-blue">Home</a> | 
+                            <a href="#about" class="is-blue">About</a> |
+                            <a href="#services" class="is-blue">Services</a> |
+                            <a href="projects" class="is-blue">Projects</a> |
+                            <a href="contact" class="is-blue">Contact</a>
                         </p>
                         <p>
                            <img src="../../assets/images/code.png" style="height:1.5rem" class="is-vcentered">  with  <img src="../../assets/images/programming.png" style="height:1.5rem"/> + <img src="../../assets/images/heart.png" style="height:1.5rem"/> by Rahul Sharma &copy; 2020
@@ -170,11 +180,8 @@
     background: url('../../assets/images/cover.jpg') no-repeat;
     background-size: cover;
     position: relative;
-    /* background-image: url('../../assets/images/bg.jpg'); */
-    /* background-color: #363636; */
 }
 .landing-area-text {
-   /* background-color: #5009FF; */
    position: absolute;
    left:50%;
    top: 50%;
@@ -250,7 +257,7 @@
 }
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: #5009FF; }
+  50% { border-color: var(--purple-hex); }
 }
 
 @Keyframes typing {
