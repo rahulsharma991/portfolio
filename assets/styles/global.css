@@ -20,6 +20,9 @@
 .pd-2 {
     padding: 2rem;
 }
+.mt-3 {
+    margin-top: 3rem;
+}
 .font-gradient {
     background: linear-gradient(45deg, #4A40FF, #8B09FF, #363636);
     -webkit-text-fill-color: transparent;
@@ -43,4 +46,7 @@
 }
 .section-5-2-half {
     padding: 5rem 2.5rem;
+}
+.brad-1 {
+    border-radius: 1rem;
 }

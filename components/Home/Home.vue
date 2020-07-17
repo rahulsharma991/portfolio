@@ -36,7 +36,7 @@
         </section>
         <hr>
          <!--=========================Services================================-->
-         <section class="section-5-2-half">
+         <section class="section-5-2-half" id="services">
                 <div class="container">
                     <div class="columns is-centered">
                         <div class="column is-three-quarters has-text-centered">
@@ -62,10 +62,104 @@
                                 <h1 class="title is-size-4 is-spaced">Adobe Illustration</h1>
                                 <h2 class="subtitle">Designer who mold the ugliset shapes into attractive shapes. Lets find it and build together!</h2>
                             </div>
-                           
                     </div>
                 </div>
          </section>
+        <hr>
+     <!--=========================Projects================================-->
+        
+        <section class="section-5-2-half" id="projects">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-three-quarters has-text-centered">
+                            <h1 class="title is-spaced">Projects</h1>
+                            <h2 class="subtitle">Project that i had done yet</h2>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="columns is-multiline is-mobile is-centered box is-vcentered">
+                    <div class="column is-12-mobile is-half-tablet is-half-desktop pd-2 brad-1 background-gradient">
+                        <img src="../../assets/images/bairro.png" style="width:11rem; height:11rem" class="btnX"/>
+                    </div>
+                    <div class="column is-12-mobile is-half-tablet is-half-desktop pd-2">
+                        <h1 class="title is-spaced">Bairro Express</h1>
+                        <h2 class="subtitle ">This is completely responsive website with on-scroll animations that i had made for my client based on <strong>Portugal.</strong>This project is very simple UI and contains information about restaurant menu.</h2>
+                        <p><i class="fa fa-github" aria-hidden="true"></i></p>
+                    </div>
+                </div>
+
+                
+                    <div class="columns mt-3 box is-vcentered">
+                        <div class="column is-12-mobile is-half-tablet is-half-desktop pd-2  brad-1 background-gradient">
+                            <img src="../../assets/images/webdialog.png" style="width:11rem; height:11rem" class="btnX"/>
+                        </div>
+                        <div class="column is-12-mobile is-half-tablet is-half-desktop pd-2 ">
+                            <h1 class="title is-spaced">Web Floating Dialog</h1>
+                            <h2 class="subtitle ">A dialog plugin to alert your website users about any important information. Inspired from paper dialog seen on YouTube during COVID-19 outbreak. It is a open source project that i had done with Mexson Fernandes.</h2>
+                        </div>
+                    </div>
+
+                     <div class="columns mt-3 box is-vcentered">
+                        <div class="column is-12-mobile is-half-tablet is-half-desktop pd-2  brad-1 background-gradient">
+                            <img src="../../assets/images/webId.png" style="width:11rem; height:11rem" class="btnX"/>
+                        </div>
+                        <div class="column is-12-mobile is-half-tablet is-half-desktop pd-2 ">
+                            <h1 class="title is-spaced">WebIDHunt</h1>
+                            <h2 class="subtitle ">Client based app to get information about username availability from different important websites. This tool can be used by startups, tech enthusiast, and people who want to block particular username on important domains.</h2>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <hr>
+
+          <!--=========================Get in touch================================-->
+
+          <section class="section-5-2-half">
+              <div class="container">
+                  <div class="columns is-centered">
+                      <div class="column is-three-quarters has-text-centered">
+                          <h1 class="title is-spaced">Get In Touch</h1>
+                          <h2 class="subtitle">I'll be happy if you reached out me. Even you say "Hello! || Hey!" to make and if have idea or any discussion to do i will be there to help you out. Don't Hesitate just drop a message i'll get back to ASAP!</h2>
+                          <h2 class="subtitle">You can contact me on different social platform :-</h2>
+                      </div>
+                  </div>
+
+                  <div class="columns mt-3  is-mobile is-vcentered is-multiline is-centered has-text-centered">
+                        <div class="column is-half-mobile is-one-quarter-tablet pd-2 ">
+                         <a href="https://twitter.com/rahul_sharma_99" target="_blank"><p class="subtitle is-size-7-mobile"><img src="../../assets/images/twitter.png" style="height:1.6rem" /> Twitter</p> </a>  
+                        </div>
+                        <div class="column is-half-mobile is-one-quarter-tablet pd-2 ">
+                          <a href="https://www.facebook.com/profile.php?id=100043923701393" target="_blank"><p class="subtitle is-size-7-mobile"><img src="../../assets/images/facebook.png" style="height:1.6rem" /> Facebook</p> </a> 
+                        </div>
+                        <div class="column is-half-mobile is-one-quarter-tablet pd-2 ">
+                           <a href="https://www.instagram.com/_rahul_sharma_99/" target="_blank"><p class="subtitle is-size-7-mobile"><img src="../../assets/images/insta.png" style="height:1.6rem" /> Instagram</p> </a> 
+                        </div>
+                         <div class="column is-half-mobile is-one-quarter-tablet pd-2 ">
+                           <a href="https://www.linkedin.com/in/rahul-sharma-580025128/" target="_blank"><p class="subtitle is-size-7-mobile"><img src="../../assets/images/linkedin.png" style="height:1.6rem" /> LinkedIn</p> </a> 
+                        </div>
+                    </div>
+              </div>
+          </section>
+
+          <!--=========================Footer================================-->
+
+          <section >
+              <footer class="footer">
+                    <div class="content has-text-centered">
+                        <p>
+                            <a href="">Home</a> | 
+                            <a href="">About</a> |
+                            <a href="">Services</a> |
+                            <a href="">Projects</a> |
+                            <a href="">Contact</a>
+                        </p>
+                        <p>
+                           <img src="../../assets/images/code.png" style="height:1.5rem" class="is-vcentered">  with  <img src="../../assets/images/programming.png" style="height:1.5rem"/> + <img src="../../assets/images/heart.png" style="height:1.5rem"/> by Rahul Sharma &copy; 2020
+                        </p>
+                    </div>
+                </footer>
+          </section>
     </div>
 </template>
 

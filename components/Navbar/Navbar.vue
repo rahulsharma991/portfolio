@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="navbar is-dark " role="navigation" aria-label="main navigation">
+        <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="#">
       <img src="../../assets/images/rLogo.png">
@@ -87,6 +87,9 @@ export default {
 /* .is-gradiant {
   background: linear-gradient(45deg, #5009FF, #4A40FF);
 } */
+.is-transparent {
+  background-color: #f9f9f9 !important;
+}
 @media screen and (max-width: 1023px) {
 .navbar-menu {
     background-color: white;
