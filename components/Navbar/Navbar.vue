@@ -122,6 +122,9 @@ export default {
     background: transparent;
     color:black;
 }
+.nuxt-link-active {
+   color:var(black) !important;
+}
 }
 </style>
 
