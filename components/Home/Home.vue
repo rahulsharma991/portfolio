@@ -109,7 +109,7 @@
 
                      <div class="columns mt-3 box is-vcentered">
                         <div class="column is-12-mobile is-half-tablet is-half-desktop pd-2  brad-1 background-gradient">
-                            <img src="../../assets/images/webId.png" style="width:11rem; height:11rem" class="btnX"/>
+                            <img src="../../assets/images/webid.png" style="width:11rem; height:11rem" class="btnX"/>
                         </div>
                         <div class="column is-12-mobile is-half-tablet is-half-desktop pd-2 ">
                             <h1 class="title is-spaced">WebIDHunt</h1>
