@@ -15,26 +15,26 @@
 
   <div class="navbar-menu expand">
     <div class="navbar-end navbar-mobile">
-      <a href="#home" class="navbar-item navbar-mobile-item ">
+      <nuxt-link to="#home" class="navbar-item navbar-mobile-item ">
        Home
-      </a>
+      </nuxt-link>
 
-      <a href="#about" class="navbar-item navbar-mobile-item">
+      <nuxt-link  to="#about" class="navbar-item navbar-mobile-item">
         About
-      </a>
+      </nuxt-link>
 
-      <a href="#services" class="navbar-item navbar-mobile-item">
+      <nuxt-link  to="#services" class="navbar-item navbar-mobile-item">
         
          Services 
-        </a>
+        </nuxt-link>
 
-      <a href="#projects" class="navbar-item navbar-mobile-item">
+      <nuxt-link  to="#projects" class="navbar-item navbar-mobile-item">
           Projects
-      </a>
+      </nuxt-link>
 
-       <a href="#contact" class="navbar-item navbar-mobile-item">
+       <nuxt-link  to="#contact" class="navbar-item navbar-mobile-item">
           Contact
-      </a>
+      </nuxt-link>
 
     </div>
   </div>
@@ -61,11 +61,8 @@ export default {
 </script>
 
 <style scoped>
-.is-active {
-  color:var(--light-purple-hex) !important;
-}
-.active {
-  color:red;
+.nuxt-link-active {
+   color:var(--light-purple-hex) !important;
 }
 .navbar-item img {
     max-height: 4.75rem !important;
