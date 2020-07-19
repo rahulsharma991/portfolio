@@ -23,10 +23,6 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
-      {
-        rel: 'stylesheet',
-        href: '~/assets/styles/global.css',
-      },
       { href: "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap", rel: "stylesheet"}
     ], 
     script: [
@@ -37,6 +33,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/assets/styles/global.css'
   ],
   /*
   ** Plugins to load before mounting the App

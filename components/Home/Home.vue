@@ -9,7 +9,7 @@
                         <h2 class="title is-spaced is-size-2 has-text-centered is-size-3-mobile mr-1 font-gradient">< Front-End Web Developer /></h2>
                         <h3 class="subtitle has-text-centered has-text-weight-medium is-size-4 is-size-5-mobile ">HTML . CSS . JavaScript . NuxtJs</h3>
                             <button class="button is-dark has-text-centered btnX background-gradient" role="button">Get in touch</button>
-                        <a href="#about"><button class="is-size-1 mt-2 arrow-anime btnX pointer"> <i class="fa fa-angle-down" aria-hidden="true"></i></button></a>
+                        <a href="#about"><button class="is-size-1 mt-2 arrow-anime btnX pointer" role="button"> <i class="fa fa-angle-down" aria-hidden="true"></i></button></a>
                         
 
                     </div>
