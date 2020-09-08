@@ -4,11 +4,9 @@
       <footer class="footer">
         <div class="content has-text-centered">
           <p>
-            <a href="#home" class="is-blue">Home</a> |
-            <a href="#about" class="is-blue">About</a> |
-            <a href="#services" class="is-blue">Services</a> |
-            <a href="projects" class="is-blue">Projects</a> |
-            <a href="contact" class="is-blue">Contact</a>
+            <a class="is-blue" v-for="item in footItems" :key="item"
+              >{{ item }}
+            </a>
           </p>
           <p>
             <img
@@ -30,3 +28,12 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  data: () => {
+    return {
+      footItems: ["Home |", "About |", "Services |", "Projects |", "Contact"]
+    };
+  }
+};
+</script>
