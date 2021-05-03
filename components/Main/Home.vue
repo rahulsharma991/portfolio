@@ -19,7 +19,7 @@
             >
               {{ tech }}
             </h3>
-            <div class="columns is-centered">
+            <!-- <div class="columns is-centered">
               <div class="column is-one-fifth-tablet is-one-fifth-desktop">
                 <button
                   class="button is-dark has-text-centered btnX background-gradient"
@@ -36,7 +36,7 @@
                   {{ get_in_touch }}
                 </button>
               </div>
-            </div>
+            </div> -->
 
             <a href="#about"
               ><button
@@ -58,7 +58,7 @@ export default {
     return {
       name: "Rahul Sharma",
       profile: "< Front-End Web Developer />",
-      tech: "HTML . CSS . JavaScript . NuxtJs",
+      tech: "HTML . CSS . JavaScript . NuxtJs . Angular",
       get_in_touch: "Get in touch"
     };
   }

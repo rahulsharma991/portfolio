@@ -4,7 +4,11 @@
       <div class="container">
         <div class="columns is-centered  ">
           <div class="column  is-three-fifths mb-3">
-            <img src="" alt="" class="profile-image background-gradient" />
+            <img
+              src="../../assets/images/about.jpg"
+              alt=""
+              class="profile-image background-gradient"
+            />
           </div>
         </div>
 
